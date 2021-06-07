@@ -18,3 +18,16 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+
+## Config
+
+Use the following environment variables:
+
+ - `API_BASE_URL` - API Base URL (default: http://localhost:3030)
+
+For built-in server:
+
+ - `PORT` - listening port
+ - `HOST` - listening interface
+

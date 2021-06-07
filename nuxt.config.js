@@ -1,3 +1,7 @@
+
+const port = process.env.PORT && parseInt(process.env.PORT, 10) || 3000;
+const host = process.env.HOST || 'localhost';
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -44,5 +48,14 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  server: {
+    host,
+    port,
+  },
+
+  publicRuntimeConfig: {
+    apiBaseURL: process.env.API_BASE_URL || 'http://localhost:3030',
+  },
 }
