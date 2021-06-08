@@ -3,7 +3,7 @@
     <div>
       <NuxtLink to="/upload"> Upload </NuxtLink>
       <h1 class="title">
-        bobolu-frontend
+        bobolu image board
       </h1>
       <PicListing />
     </div>
@@ -20,7 +20,7 @@ export default {}
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 2em;
   text-align: center;
 }
 
@@ -37,7 +37,7 @@ export default {}
     sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 4em;
   color: #35495e;
   letter-spacing: 1px;
 }
