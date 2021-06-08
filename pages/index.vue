@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div>
+      <NuxtLink to="/upload"> Upload </NuxtLink>
       <h1 class="title">
         bobolu-frontend
       </h1>
