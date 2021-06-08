@@ -1,5 +1,7 @@
 # bobolu-frontend
 
+Parent repo: [Heavelyn/bobolu](https://github.com/Heavelyn/bobolu)
+
 ## Build Setup
 
 ```bash
